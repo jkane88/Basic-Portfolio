@@ -32,6 +32,9 @@ header {
     vertical-align: middle;
     margin-bottom: 75px;
 }
+.content {
+    min-height: calc(100vh - 76px);
+}
 .about-box img {
     width: 350px;
     float: left;
@@ -76,6 +79,10 @@ header {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
     line-height: 2;
 
+}
+.current {
+    color: var(--accent) !important;
+    border-bottom: 2px solid var(--accent);
 }
 
 
