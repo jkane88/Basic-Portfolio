@@ -150,3 +150,66 @@ footer {
     text-align: center;
     height: 65px;
 }
+/* Media Queries */ 
+@media (max-height: 1000px) {
+    footer {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main {
+        width: 100%;
+    }
+
+    .header {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .name {
+        float: none;
+        display: flex;
+        width: 100%;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .name h1 {
+        background: var(--accent);
+        color: #ccc;
+        height: 80px;
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .nav {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav li {
+        display: inline-flex;
+    }
+
+    .content-box {
+        width: 80%;
+        margin: 40px auto;
+        display: block;
+    }
+
+    .about-box img {
+        float: none;
+        width: 100%;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        margin: auto;
+    }
+}
+
+
